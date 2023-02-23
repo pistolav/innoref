@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Referanseliste</title>
+</head>
+<body>
+
+<div class="head">
+    <img src="Skjermbilde.PNG" alt="">
+    <div class="title">
+        <h1 class="title_main">INNOVASJONSBOKA</h1>
+        <h3 class="title_sub">Digitale referanser</h3>
+    </div>
+</div>
+
+<h1>Under arbeid</h1>
+
+<button type="button" id="toggleDisplay" onclick="displayAll()">Utvid alle</button>
+
+
+<div class="chapter" onclick="clicked(1)">
+    <h2 class="title_chap" ><a>Kapittel 1 - Intro</a></h2>
+    <div class="references hidden" id="chapter__1">
+        <div class="reference"><a href="http://www.csun.edu/~vchsc006/lead.pdf" target="_blank"><h3>Green Chemistry and the Phaseout of Leaded Fuel</h3></a></div>
+        <div class="reference"><a href="https://www.unep.org/news-and-stories/press-release/era-leaded-petrol-over-eliminating-major-threat-human-and-planetary" target="_blank"><h3>Era of leaded petrol over, eliminating a major threat to human and planetary health</h3></a></div>
+    </div>
+</div>
+
+<div class="chapter" onclick="clicked(5)">
+    <h2 class="title_chap" ><a>Kapittel 5 - Innovasjonsmetodikk</a></h2>
+    <div class="references hidden" id="chapter__5">
+        <div class="reference"><a href="https://systemsorienteddesign.net/wp-content/uploads/2021/07/about-sod.jpg" target="_blank"><h3>Systemorientert Design</h3></a></div>
+    </div>
+</div>
+
+<div class="chapter" onclick="clicked(7)">
+    <h2 class="title_chap" ><a>Kapittel 7 - Digitalisering</a></h2>
+    <div class="references hidden" id="chapter__7">
+        <div class="reference"><a href="https://www.digdir.no/innovasjon/digital-transformasjon/1589" target="_blank"><h3>Hva er digital transformasjon?</h3></a></div>
+        <div class="reference"><a href="https://www.dn.no/energi/bitcoin/tesla/kryptovaluta/bitcoin-bruker-na-mer-strom-enn-hele-norge/2-1-962058" target="_blank"><h3>Bitcoin bruker nå mer strøm enn hele Norge</h3></a></div>
+        <div class="reference"><a href="https://www.aftenposten.no/amagasinet/i/9Kwb2w/naturen-vaar-forandres-uten-at-vi-merker-det" target="_blank"><h3>Naturen vår forandres uten at vi merker det</h3></a></div>
+        <div class="reference"><a href="https://www.smartinnovationnorway.com/nyheter/hva-er-innovasjon-og-hvordan-innoverer-man/" target="_blank"><h3>Denne fungerer ikke</h3></a></div>
+        <div class="reference"><a href="https://en.wiktionary.org/wiki/Kodak_moment" target="_blank"><h3>Kodak moment</h3></a></div>
+        <div class="reference"><a href="https://www.hrnorge.no/aktuelt/fra-skranke-til-gulv-et-konsept-for-%C3%A5-gj%C3%B8re-kunden-selvbetjent" target="_blank"><h3>«Fra skranke til gulv» et konsept for å gjøre kunden selvbetjent</h3></a></div>
+        <div class="reference"><a href="https://www.nrk.no/osloogviken/xl/mann-la-dod-i-leilighet-i-oslo-i-ni-ar-1.15337692" target="_blank"><h3>Mannen som ikke ble savnet</h3></a></div>
+        <div class="reference"><a href="https://www.wfpusa.org/articles/8-facts-to-know-about-food-waste-and-hunger/" target="_blank"><h3>8 Facts to Know About Food Waste and Hunger</h3></a></div>
+        <div class="reference"><a href="https://www.tu.no/artikler/her-er-sensorene-som-kan-gjore-oslos-parkering-smart/364070" target="_blank"><h3>Her er sensorene som KAN gjøre Oslos parkering smart</h3></a></div>
+        <div class="reference"><a href="https://www.regjeringen.no/no/tema/statlig-forvaltning/ikt-politikk/digitaliseringen-i-offentlig-sektor/id2340245/" target="_blank"><h3>Digitalisering i offentlig sektor</h3></a></div>
+        <div class="reference"><a href="https://www.equinor.com/no/what-we-do/digitalisation-in-our-dna.html" target="_blank"><h3>Denne fungerer ikke</h3></a></div>
+        <div class="reference"><a href="" target="_blank"><h3>Artikkelen Hva er innovasjon og hvordan innoverer man bruker Andersen og Buckholm</h3></a></div>
+        <div class="reference"><a href="https://www.smartinnovationnorway.com/nyheter/hva-er-innovasjon-og-hvordan-innoverer-man/" target="_blank"><h3>Denne fungerer ikke</h3></a></div>
+    </div>
+</div>
+
+
+<div class="chapter" onclick="clicked(9)">
+    <h2 class="title_chap" ><a>Kapittel 9 - Bærekraft</a></h2>
+    <div class="references hidden" id="chapter__9">
+        <div class="reference"><a href="https://www.sosentboka.no" target="_blank"><h3>Håndbok i sosialt entreprenørskap</h3></a></div>
+        <div class="reference"><a href="https://www.stockholmresilience.org" target="_blank"><h3>Sotckholm resilisence centre</h3></a></div>
+
+    </div>
+</div>
+
+<div class="chapter" onclick="clicked(11)">
+    <h2 class="title_chap" ><a>Kapittel 11 - Innsikt</a></h2>
+    <div class="references hidden" id="chapter__11">
+        <div class="reference"><a href="https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/" target="_blank"><h3>Why You Only Need to Test with 5 Users</h3></a></div>
+    </div>
+</div>
+
+<div class="chapter" onclick="clicked(13)">
+    <h2 class="title_chap" ><a>Kapittel 13 - Kreativitet</a></h2>
+    <div class="references hidden" id="chapter__13">
+        <div class="reference"><a href="https://forskning.no/arbeid-boker-oslomet/hvordan-loser-vi-best-problemer-i-grupper/1983863" target="_blank"><h3>Hvordan løser vi best problemer i grupper?</h3></a></div>
+        <div class="reference"><a href="https://psykologisk.no/2020/11/hva-er-forskjellen-pa-a-vaere-kreativ-og-innovativ/" target="_blank"><h3Hva er forskjellen på å være kreativ og innovativ?</h3></a></div>
+        <div class="reference"><a href="https://psykologisk.no/2020/10/hvordan-er-kreative-mennesker-sann-egentlig/" target="_blank"><h3>Hvordan er kreative mennesker, sånn egentlig?</h3></a></div>
+        <div class="reference"><a href="https://ung.forskning.no/hjernen-psykologi-skole/det-er-sunt-a-la-tankene-fly/1635396" target="_blank"><h3>Det er sunt å la tankene fly</h3></a></div>
+        <div class="reference"><a href="https://dictionary.cambridge.org/dictionary/english/creativity" target="_blank"><h3>creativity</h3></a></div>
+        <div class="reference"><a href="https://hbr.org/2017/05/to-be-more-creative-schedule-your-breaks?utm_medium=social&amp;utm_campaign=hbr&amp;utm_source=LinkedIn&amp;tpcc=orgsocial_edit" target="_blank"><h3>To Be More Creative, Schedule Your Breaks</h3></a></div>
+        <div class="reference"><a href="https://doga.no/verktoy/hva-er-design-thinking/" target="_blank"><h3>Hva er design thinking?</h3></a></div>
+        <div class="reference"><a href="https://obliquestrategies.ca/#" target="_blank"><h3>When is it for?</h3></a></div>
+        <div class="reference"><a href="https://apps.apple.com/us/app/oblique-strategies-se/id1104927011" target="_blank"><h3Oblique Strategies SE </h3></a></div>
+        <div class="reference"><a href="https://positivedeviance.org/" target="_blank"><h3>Possitive deviance collaboration</h3></a></div>
+        <div class="reference"><a href="https://www.enoshop.co.uk/product/oblique-strategies.html" target="_blank"><h3>Oblique strategies</h3></a></div>
+        <div class="reference"><a href="https://www.theguardian.com/music/2009/sep/07/oblique-strategies" target="_blank"><h3>Hey, what's that sound: Oblique Strategies</h3></a></div>
+        <div class="reference"><a href="https://co-pi.dk/brug-os-til/arbejde-med-innovation/vores-18-tips-til-dit-innovationsarbejde?id=&amp;utm_campaign=CO-PI%3A+Automatiseret+velkomstmail+%233&amp;utm_medium=email&amp;utm_source=newsletter#1" target="_blank"><h3>Denne fungerer ikke</h3></a></div>
+        <div class="reference"><a href="https://dogaprod.azurewebsites.net/aktiviteter/design-og-innovasjon/stimulab/arbeidsmetode/" target="_blank"><h3>StimuLabs metode: Trippel diamant</h3></a></div>
+        <div class="reference"><a href="https://no.m.wikipedia.org/wiki/Hjernebølge" target="_blank"><h3>Hjernebølge</h3></a></div>
+    </div>
+</div>
+
+<div class="chapter" onclick="clicked(15)">
+    <h2 class="title_chap" ><a>Kapittel 15 - Verdi</a></h2>
+    <div class="references hidden" id="chapter__15">
+        <div class="reference"><a href="https://www.kanosurveys.com" target="_blank"><h3>Kano</h3></a></div>
+        <div class="reference"><a href="https://www.nettavisen.no/okonomi/megler-domt-for-innsidehandel/s/12-95-138035" target="_blank"><h3>Megler dømt for innsidehandel</h3></a></div>
+
+    </div>
+</div>
+
+<div class="chapter">
+    <h2 class="tittel">Kapittel 17 - Innovatøren og teamet</h2>
+</div>
+
+<div class="chapter">
+    <h2 class="tittel">Kapittel 18 - Kommuniakasjon</h2>
+</div>
+
+<div class="chapter">
+    <h2 class="tittel">Kapittel 20 - Innovasjonskultur</h2>
+</div>
+
+<div class="chapter">
+    <h2 class="tittel">Kapittel 21 - Forretningsmodell</h2>
+</div>
+
+<div class="chapter">
+    <h2 class="tittel">Kapittel 23 - Ledelse og strategi</h2>
+</div>
+
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+</body>
+</html>

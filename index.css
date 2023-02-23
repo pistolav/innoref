@@ -1,0 +1,58 @@
+body {
+    background: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.reference {
+
+}
+
+.head{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+}
+
+.title_main{
+    padding: 120px 0 0 0;
+    margin: 0 0 0 0;
+    color: #e3151e;
+}
+
+.title_sub{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    color: #2c2d2d;
+}
+
+.chapter{
+    background: #fae2e9;
+    margin: 10px auto auto auto;
+    border: 1px solid #2c2d2d;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.chapter :hover{
+    color: #e3151e;
+}
+
+.title_chap{
+    padding: 0 0 0 10px;
+}
+
+.references {
+    padding: 0 0 0 10px;
+    display: block;
+    transition: all 2s linear;
+}
+
+.reference a{
+    color: #2c2d2d;
+}
+
+.hidden{
+    display: none;
+    opacity: 0;
+}
